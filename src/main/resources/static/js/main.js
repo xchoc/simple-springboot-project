@@ -91,10 +91,12 @@ function fire_ajax_submit() {
         timeout: 600000,
         success: function (data) {
             console.log("SUCCESS : ", data);
+            toastr.success('Saved successfully')
             $("#btn-save").prop("disabled", false);
         },
         error: function (e) {
             console.log("ERROR : ", e);
+            toastr.error('Error occurred')
             $("#btn-save").prop("disabled", false);
         }
     });
