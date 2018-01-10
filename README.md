@@ -10,6 +10,7 @@ Spring Boot + PostgreSQL + Auth0
 * [SpringBoot-Auth0-ThymeLeaf](https://github.com/qtzar/SpringBoot-Auth0-ThymeLeaf)
 * [Spring Boot - from beginning to production (rus)](https://habrahabr.ru/post/257223/)
 * [HikariCP](https://github.com/brettwooldridge/HikariCP/wiki/Down-the-Rabbit-Hole)
+* [Bootstrap Alerts - toastr](https://mdbootstrap.com/javascript/alerts/)
 
 ## Load database from dump file
 ```
